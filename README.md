@@ -298,28 +298,10 @@ node bin/cli.js status
 node bin/cli.js status --json
 ```
 
-### リリース前チェックリスト
-
-- [ ] `npm run build` が成功する
-- [ ] `npm run typecheck` が成功する
-- [ ] `npm pack --dry-run` で含まれるファイルが適切か確認
-- [ ] Windows / macOS / Linux で動作確認
-- [ ] API キー無しでも落ちないことを確認
-- [ ] DeepSeek API エラー時も落ちないことを確認
-- [ ] Git リポジトリ外でも落ちないことを確認
-- [ ] `install` → `doctor` → `status` → `uninstall` の一連の流れを確認
-- [ ] バックアップと復元が正しく動作することを確認
-
 ---
 
 ## ライセンス
 
 MIT
 
----
-
-## 作者
-
-[hiromps](https://github.com/hiromps)
-
-バグ報告・機能提案は [GitHub Issues](https://github.com/hiromps/deepseek-claude-usage/issues) までお願いします。
+バグ報告・機能提案は [GitHub Issues](https://github.com/hiromps/deepseek-claude-usage/issues) まで。
