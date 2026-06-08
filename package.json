@@ -1,0 +1,49 @@
+{
+  "name": "deepseek-claude-usage",
+  "version": "1.0.0",
+  "description": "DeepSeek balance and session cost meter for Claude Code statusLine",
+  "main": "dist/cli.js",
+  "bin": {
+    "deepseek-claude-usage": "./bin/deepseek-claude-usage.js"
+  },
+  "files": [
+    "bin/",
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "claude-code",
+    "deepseek",
+    "usage",
+    "statusline",
+    "cli",
+    "ai",
+    "balance",
+    "cost-tracker",
+    "deepseek-api"
+  ],
+  "license": "MIT",
+  "author": "hiromps <akihiro19970324@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiromps/deepseek-claude-usage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hiromps/deepseek-claude-usage/issues"
+  },
+  "homepage": "https://github.com/hiromps/deepseek-claude-usage#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
