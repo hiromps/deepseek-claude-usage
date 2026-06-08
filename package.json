@@ -1,7 +1,7 @@
 {
   "name": "deepseek-claude-usage",
-  "version": "1.0.0",
-  "description": "DeepSeek balance and session cost meter for Claude Code statusLine",
+  "version": "1.0.1",
+  "description": "Claude Codeの画面下にDeepSeekの残高と使用量をリアルタイム表示するCLIツール",
   "main": "dist/cli.js",
   "bin": {
     "deepseek-claude-usage": "bin/cli.js"
