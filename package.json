@@ -4,7 +4,7 @@
   "description": "DeepSeek balance and session cost meter for Claude Code statusLine",
   "main": "dist/cli.js",
   "bin": {
-    "deepseek-claude-usage": "./bin/deepseek-claude-usage.js"
+    "deepseek-claude-usage": "./bin/deepseek-claude-usage"
   },
   "files": [
     "bin/",
