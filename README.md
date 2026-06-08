@@ -6,9 +6,7 @@
 🧠 deepseek-v4-pro[1m] | 📁 my-app | 🌿 main | 💰 DS $12.3456 | 🔥 spent $0.0182
 ```
 
-DeepSeek の課金、こわいですよね。気づいたら残高が減っていて「えっ」てなったこと、ありませんか？
-
-このツールを入れれば、Claude Code で作業しながら **DeepSeek の残高・セッション消費額・モデル名・ディレクトリ・Git ブランチ** が画面下に常に表示されます。もう `platform.deepseek.com` を開いて残高を確認する必要はありません。
+このツールを入れれば、Claude Code で作業しながら **DeepSeek の残高・セッション消費額・モデル名・ディレクトリ・Git ブランチ** が画面下に常に表示されます。
 
 ---
 
@@ -272,27 +270,6 @@ Claude Code
 | API キー | DeepSeek API キー（または Anthropic API キー） |
 | Git | 任意（ブランチ表示に使います） |
 | OS | Windows / macOS / Linux すべて対応 |
-
----
-
-## X でシェア
-
-```text
-Claude Code × DeepSeek 勢向けに作りました。
-
-作業画面の下に
-・DeepSeek 残高
-・今回の消費額
-・モデル名
-・Git ブランチ
-をリアルタイム表示できます。
-
-インストールは1行👇
-
-npx deepseek-claude-usage install
-
-DeepSeek 課金、見えないの怖すぎたので作った。
-```
 
 ---
 
